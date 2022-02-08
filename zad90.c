@@ -5,8 +5,7 @@
 int main()
 {
     int M[5][5];
-    int i;
-    int j;
+    int i,j;
     int produkt = 1;
 
 
