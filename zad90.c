@@ -4,7 +4,7 @@
 
 int main()
 {
-    int G[5][5];
+    int M[5][5];
     int i;
     int j;
     int produkt = 1;
@@ -16,13 +16,13 @@ int main()
     {
         for (j = 0; j < 5; j++)
         {
-            scanf("%d", &G[i][j]);
+            scanf("%d", &M[i][j]);
         }
     }
 
     for (i = 0; i < 5; i++)
     {
-        produkt = produkt * G[i][i];
+        produkt = produkt * M[i][i];
     }
     
     printf("\nProdukt glavne dijagonale je = %d", produkt);
